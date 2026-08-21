@@ -1,0 +1,137 @@
+{
+    "name": "Nocelis Dark",
+
+    "colors": {
+
+        "editor.background": "#00001a",
+        "editor.foreground": "#F0F0F0",
+
+        "editor.selectionBackground": "#003B70",
+        "editorCursor.foreground": "#1CACFC",
+
+        "editorLineNumber.foreground": "#35465A",
+        "editorLineNumber.activeForeground": "#0088FC",
+
+        "sideBar.background": "#07111F",
+        "sideBar.foreground": "#D7E3F0",
+
+        "activityBar.background": "#00001a",
+        "activityBar.foreground": "#0088FC",
+        "activityBar.inactiveForeground": "#52677D",
+
+        "statusBar.background": "#001038",
+        "statusBar.foreground": "#F0F0F0",
+
+        "titleBar.activeBackground": "#050B16",
+        "titleBar.activeForeground": "#F0F0F0",
+
+        "tab.activeBackground": "#050B16",
+        "tab.activeForeground": "#F0F0F0",
+
+        "tab.inactiveBackground": "#020510",
+        "tab.inactiveForeground": "#52677D",
+
+        "panel.border": "#0088FC",
+        "sideBar.border": "#0088FC",
+        "editorGroup.border": "#0088FC",
+        "editorGroupHeader.tabsBorder": "#0088FC",
+        "activityBar.border": "#0088FC",
+        "statusBar.border": "#0088FC",
+        "titleBar.border": "#0088FC",
+
+        "focusBorder": "#0088FC"
+    },
+
+    "tokenColors": [
+
+        {
+            "scope": [
+                "keyword",
+                "storage",
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#0088FC"
+            }
+        },
+
+        {
+            "scope": [
+                "storage.type",
+                "support.type"
+            ],
+            "settings": {
+                "foreground": "#E05A5A"
+            }
+        },
+
+        {
+            "scope": [
+                "entity.name.type",
+                "entity.name.class",
+                "entity.name.namespace"
+            ],
+            "settings": {
+                "foreground": "#F0F0F0"
+            }
+        },
+
+        {
+            "scope": [
+                "variable",
+                "variable.other",
+                "variable.other.readwrite"
+            ],
+            "settings": {
+                "foreground": "#B58CFF"
+            }
+        },
+
+        {
+            "scope": [
+                "entity.name.function",
+                "entity.name.function.member"
+            ],
+            "settings": {
+                "foreground": "#00F0FF"
+            }
+        },
+
+        {
+            "scope": [
+                "string",
+                "string.quoted"
+            ],
+            "settings": {
+                "foreground": "#F0F0F0"
+            }
+        },
+
+        {
+            "scope": [
+                "constant.numeric"
+            ],
+            "settings": {
+                "foreground": "#E05A5A"
+            }
+        },
+
+        {
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#718096",
+                "fontStyle": "italic"
+            }
+        }
+
+    ],
+        "semanticHighlighting": true,
+
+        "semanticTokenColors": {
+            "variable": "#B58CFF",
+            "parameter": "#B58CFF"
+    }
+}

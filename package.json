@@ -1,0 +1,27 @@
+{
+    "name": "nocelis-theme",
+    "displayName": "Nocelis Theme",
+    "description": "A dark Visual Studio Code color theme inspired by the Nocelis identity.",
+    "version": "0.1.0",
+    "publisher": "Nocelis",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nocelis Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/nocelis-dark.json"
+            },
+            {
+            "label": "Nocelis Light",
+            "uiTheme": "vs",
+            "path": "./themes/nocelis-light.json"
+        }
+        ]
+    }
+}

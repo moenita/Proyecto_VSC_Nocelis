@@ -1,0 +1,138 @@
+{
+    "name": "Nocelis Light",
+
+    "colors": {
+
+        "editor.background": "#F7F9FC",
+        "editor.foreground": "#172033",
+
+        "editor.selectionBackground": "#C9E7FF",
+        "editorCursor.foreground": "#0077D9",
+
+        "editorLineNumber.foreground": "#9AA8B8",
+        "editorLineNumber.activeForeground": "#0077D9",
+
+        "sideBar.background": "#E9EEF5",
+        "sideBar.foreground": "#172033",
+
+        "activityBar.background": "#E1E7EF",
+        "activityBar.foreground": "#0077D9",
+        "activityBar.inactiveForeground": "#718096",
+
+        "statusBar.background": "#DCEBFA",
+        "statusBar.foreground": "#172033",
+
+        "titleBar.activeBackground": "#007FFF",
+        "titleBar.activeForeground": "#172033",
+
+        "tab.activeBackground": "#F7F9FC",
+        "tab.activeForeground": "#172033",
+
+        "tab.inactiveBackground": "#E8F3FC",
+        "tab.inactiveForeground": "#718096",
+
+        "panel.border": "#0077D9",
+        "sideBar.border": "#0077D9",
+        "editorGroup.border": "#0077D9",
+        "editorGroupHeader.tabsBorder": "#0077D9",
+        "activityBar.border": "#0077D9",
+        "statusBar.border": "#0077D9",
+        "titleBar.border": "#B8D9F2",
+
+        "focusBorder": "#0077D9"
+    },
+
+    "tokenColors": [
+
+        {
+            "scope": [
+                "keyword",
+                "storage",
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#0066B3"
+            }
+        },
+
+        {
+            "scope": [
+                "storage.type",
+                "support.type"
+            ],
+            "settings": {
+                "foreground": "#C43D3D"
+            }
+        },
+
+        {
+            "scope": [
+                "entity.name.type",
+                "entity.name.class",
+                "entity.name.namespace"
+            ],
+            "settings": {
+                "foreground": "#172033"
+            }
+        },
+
+        {
+            "scope": [
+                "variable",
+                "variable.other",
+                "variable.other.readwrite"
+            ],
+            "settings": {
+                "foreground": "#7547A8"
+            }
+        },
+
+        {
+            "scope": [
+                "entity.name.function",
+                "entity.name.function.member"
+            ],
+            "settings": {
+                "foreground": "#007C99"
+            }
+        },
+
+        {
+            "scope": [
+                "string",
+                "string.quoted"
+            ],
+            "settings": {
+                "foreground": "#172033"
+            }
+        },
+
+        {
+            "scope": [
+                "constant.numeric"
+            ],
+            "settings": {
+                "foreground": "#C43D3D"
+            }
+        },
+
+        {
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#718096",
+                "fontStyle": "italic"
+            }
+        }
+
+    ],
+
+    "semanticHighlighting": true,
+
+    "semanticTokenColors": {
+        "variable": "#7547A8",
+        "parameter": "#007C99"
+    }
+}
