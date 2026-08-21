@@ -1,0 +1,45 @@
+# ============================================
+# Nocelis Theme - Git Ignore
+# ============================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# VS Code extension testing
+.vscode-test/
+
+# VS Code local history
+.history/
+.ionide/
+
+# Packaged VS Code extensions
+*.vsix
+*.vsixmanifest
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage
+coverage/
+.nyc_output/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*~
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
